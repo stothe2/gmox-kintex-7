@@ -6,6 +6,7 @@ Some helpful sources are listed below.
 
 1. Xilinx Kintex-7 [datasheet](http://www.xilinx.com/support/documentation/data_sheets/ds182_Kintex_7_Data_Sheet.pdf)
 2. Xilinx 7-series [PCB design guide](http://www.xilinx.com/support/documentation/user_guides/ug483_7Series_PCB.pdf)
+3. Xilinx 7-series [Select I/O resources](http://www.xilinx.com/support/documentation/user_guides/ug471_7Series_SelectIO.pdf)
 3. [Are all of the VCCINT, VCCAUX, VCCAUX_IO, VCCO, or GND pins in the FPGA connected internally?](http://www.xilinx.com/support/answers/22338.html)
 
 ## ADC
