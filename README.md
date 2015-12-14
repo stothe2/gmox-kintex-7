@@ -15,8 +15,8 @@ Some helpful sources are listed below.
 
 1. **LVCMOS25** Only HR I/O banks. ``VCCO = 2.5V``
 2. **LVCMOS18** Both HR and HP I/O banks. ``VCCO = 1.8V``
-3. **LVDS** Only HP I/O banks. ``VCCO = 1.8V``
-4. **LVDS25** Only HR I/O banks. ``VCCO = 2.5V``
+3. ~~**LVDS** Only HP I/O banks. ``VCCO = 1.8V``~~
+4. ~~**LVDS25** Only HR I/O banks. ``VCCO = 2.5V``~~
 
 Note, HR stands for High Range and HP for High Performance. Banks 13, 14, 15, 16 are all HR banks. Banks 33, 34 are HP banks.
 
