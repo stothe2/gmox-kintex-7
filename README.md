@@ -13,12 +13,22 @@ Some helpful sources are listed below.
 
 ##### Supported I/O standards for our test-board
 
-1. **LVCMOS25** Only HR I/O banks. ``VCCO = 2.5V``
-2. **LVCMOS18** Both HR and HP I/O banks. ``VCCO = 1.8V``
-3. ~~**LVDS** Only HP I/O banks. ``VCCO = 1.8V``~~
-4. ~~**LVDS25** Only HR I/O banks. ``VCCO = 2.5V``~~
+1. LVCMOS25. Only HR I/O banks. ``VCCO = 2.5V``
+2. LVCMOS18. Both HR and HP I/O banks. ``VCCO = 1.8V``
+3. ~~LVDS. Only HP I/O banks. ``VCCO = 1.8V``~~
+4. ~~LVDS25. Only HR I/O banks. ``VCCO = 2.5V``~~
 
 Note, HR stands for High Range and HP for High Performance. Banks 13, 14, 15, 16 are all HR banks. Banks 33, 34 are HP banks.
+
+##### Recommended bypass capacitor usage
+
+|                                      | 330uF | 100uF |  47uF | 4.7uF |
+| ------------------------------------ |:-----:|:-----:|:-----:|:-----:|
+| ``VCCINT``                           |   2   |   0   |   0   |   0   |
+| ``VCCBRAM``                          |   0   |   1   |   0   |   3   |
+| ``VCCAUX``                           |   0   |   0   |   2   |   3   |
+| ``VCCO`` bank 0                      |   0   |   0   |   1   |   0   |
+| ``VCCO`` all other banks (per bank)  |   0   |   1   |   0   |   0   |
 
 ## ADC
 
