@@ -10,6 +10,7 @@ Some helpful sources are listed below.
 2. Xilinx 7-series [PCB design guide](http://www.xilinx.com/support/documentation/user_guides/ug483_7Series_PCB.pdf)
 3. Xilinx 7-series [Select I/O resources](http://www.xilinx.com/support/documentation/user_guides/ug471_7Series_SelectIO.pdf)
 4. [Are all of the VCCINT, VCCAUX, VCCAUX_IO, VCCO, or GND pins in the FPGA connected internally?](http://www.xilinx.com/support/answers/22338.html)
+5. TI power management solutions for Xilinx FPGAs [reference guide](http://www.ti.com/lit/sg/slyt563/slyt563.pdf)
 
 ##### Supported I/O standards for our test-board
 
