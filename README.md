@@ -39,3 +39,7 @@ Some helpful sources are listed below.
 
 ##### Power supply
 ``XADC_VCC`` can be powered by either ``VCCAUX`` or through another 1.8V regulated source. It is recommended that the latter be used. Jumper ``J1`` should be used to make the appropriate choice.
+
+## To think about
+
+1. Power supervisory circuit? How would it compare to a simple pullup resistor network?
