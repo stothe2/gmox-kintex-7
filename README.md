@@ -43,3 +43,4 @@ Some helpful sources are listed below.
 ## To think about
 
 1. Power supervisory circuit? How would it compare to a simple pullup resistor network?
+2. Test conditions? Two of the proposed ones are (a) testing setup/hold time as a function of temperature using chain oscillators, and (b) testing stability of performance with temperature using counters. See [this](https://nepp.nasa.gov/respace_mapld11/talks/thu/MAPLD_C/1020%20-%20Sheldon.pdf) presentation to get a better sense.
