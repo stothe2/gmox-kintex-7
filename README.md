@@ -59,7 +59,7 @@ Input. On our test-board, this is tied high since banks 0, 13, and 14 are operat
 
 ##### ``INIT_B``
 
-Pulsing of INIT_B from Low to High indicates the completion of initialization at power-up. ``LED3`` indicates the status of this pin.
+Pulsing of ``INIT_B`` from Low to High indicates the completion of initialization at power-up. ``LED3`` indicates the status of this pin.
 
 ## ADC
 
