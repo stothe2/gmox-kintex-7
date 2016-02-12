@@ -4,7 +4,7 @@
 
 ## Power supply considerations
 
-Some helpful sources are listed below.
+Some helpful resources are listed below.
 
 1. Xilinx Kintex-7 [datasheet](http://www.xilinx.com/support/documentation/data_sheets/ds182_Kintex_7_Data_Sheet.pdf)
 2. Xilinx 7-series [PCB design guide](http://www.xilinx.com/support/documentation/user_guides/ug483_7Series_PCB.pdf)
@@ -19,7 +19,7 @@ Some helpful sources are listed below.
 3. ~~LVDS. Only HP I/O banks. ``VCCO = 1.8V``~~
 4. ~~LVDS25. Only HR I/O banks. ``VCCO = 2.5V``~~
 
-Note, HR stands for High Range and HP for High Performance. Banks 13, 14, 15, 16 are all HR banks. Banks 33, 34 are HP banks.
+In our test design, we've connected the HR banks to ``VCCO = 2.5V``, and the HP banks to ``VCCO = 1.8V``. Note, HR stands for High Range and HP for High Performance. Banks 13, 14, 15, 16 are all HR banks. Banks 33, 34 are HP banks.
 
 ##### Recommended bypass capacitor usage
 
