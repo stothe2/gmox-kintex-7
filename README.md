@@ -6,11 +6,11 @@
 
 Some helpful resources are listed below.
 
-1. Xilinx Kintex-7 [datasheet](http://www.xilinx.com/support/documentation/data_sheets/ds182_Kintex_7_Data_Sheet.pdf)
-2. Xilinx 7-series [PCB design guide](http://www.xilinx.com/support/documentation/user_guides/ug483_7Series_PCB.pdf)
-3. Xilinx 7-series [Select I/O resources](http://www.xilinx.com/support/documentation/user_guides/ug471_7Series_SelectIO.pdf)
+1. Xilinx Kintex-7 [datasheet](http://www.xilinx.com/support/documentation/data_sheets/ds182_Kintex_7_Data_Sheet.pdf).
+2. Xilinx 7-series [PCB design guide](http://www.xilinx.com/support/documentation/user_guides/ug483_7Series_PCB.pdf).
+3. Xilinx 7-series [Select I/O resources](http://www.xilinx.com/support/documentation/user_guides/ug471_7Series_SelectIO.pdf).
 4. [Are all of the VCCINT, VCCAUX, VCCAUX_IO, VCCO, or GND pins in the FPGA connected internally?](http://www.xilinx.com/support/answers/22338.html)
-5. TI power management solutions for Xilinx FPGAs [reference guide](http://www.ti.com/lit/sg/slyt563/slyt563.pdf)
+5. TI power management solutions for Xilinx FPGAs [reference guide](http://www.ti.com/lit/sg/slyt563/slyt563.pdf).
 
 ##### Supported I/O standards for our test-board
 
@@ -31,9 +31,27 @@ In our test design, we've connected the HR banks to ``VCCO = 2.5V``, and the HP 
 | ``VCCO`` bank 0                      |   0   |   0   |   1   |   0   |
 | ``VCCO`` all other banks (per bank)  |   0   |   1   |   0   |   0   |
 
+## Configuration Pins
+
+Some helpful resources are listed below.
+
+1. Xilinx 7 series FPGAs configuration user guide [UG470](http://www.xilinx.com/support/documentation/user_guides/ug470_7Series_Config.pdf).
+
+##### ``PROGRAM_B``
+
+Input. Active-low reset to configuration logic.
+
+##### ``DONE``
+
+Bidirectional. High signal on ``FPGA_DONE`` indicates completion of configuration sequence. On our test-board, ``LED2`` indicates the status of this signal.
+
+##### ``CCLK``
+
+Input or Output. On our test-board this pin is left unconnected since we're only using the board in JTAG mode when the pin has high impedance.
+
 ## ADC
 
-Some helpful sources are listed below.
+Some helpful resources are listed below.
 
 1. Xilinx application note [XAPP554](http://www.xilinx.com/support/documentation/application_notes/xapp554-xadc-layout-guidelines.pdf).
 
