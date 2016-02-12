@@ -49,6 +49,10 @@ Bidirectional. High signal on ``FPGA_DONE`` indicates completion of configuratio
 
 Input or Output. On our test-board this pin is left unconnected since we're only using the board in JTAG mode when the pin has high impedance.
 
+##### ``M[2:0]``
+
+Input. Since we're only using the test-board in JTAG mode, the pins are set to ``101``.
+
 ## ADC
 
 Some helpful resources are listed below.
