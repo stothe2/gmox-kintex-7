@@ -57,6 +57,10 @@ Input. Since we're only using the test-board in JTAG mode, the pins are set to `
 
 Input. On our test-board, this is tied high since banks 0, 13, and 14 are operational at 2.5V.
 
+##### ``INIT_B``
+
+Pulsing of INIT_B from Low to High indicates the completion of initialization at power-up. ``LED3`` indicates the status of this pin.
+
 ## ADC
 
 Some helpful resources are listed below.
