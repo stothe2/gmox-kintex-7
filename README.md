@@ -53,6 +53,10 @@ Input or Output. On our test-board this pin is left unconnected since we're only
 
 Input. Since we're only using the test-board in JTAG mode, the pins are set to ``101``.
 
+##### ``CFGBVS``
+
+Input. On our test-board, this is tied high since banks 0, 13, and 14 are operational at 2.5V.
+
 ## ADC
 
 Some helpful resources are listed below.
