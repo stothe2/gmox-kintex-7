@@ -31,6 +31,10 @@ In our test design, we've connected the HR banks to ``VCCO = 2.5V``, and the HP 
 | ``VCCO`` bank 0                      |   0   |   0   |   1   |   0   |
 | ``VCCO`` all other banks (per bank)  |   0   |   1   |   0   |   0   |
 
+##### Power tree
+
+![Voltage lines](https://github.com/stothe2/gmox-kintex-7/blob/master/img/voltage-rail.jpg)
+
 ## Configuration Pins
 
 Some helpful resources are listed below.
