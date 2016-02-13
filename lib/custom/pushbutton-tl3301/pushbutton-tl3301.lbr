@@ -91,7 +91,7 @@
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="TL3301EF100QG" prefix="U" uservalue="yes">
+<deviceset name="TL3301EF100QG" prefix="SW" uservalue="yes">
 <description>&lt;b&gt;E-Switch TL3301&lt;/b&gt; - Pushbutton
  
 &lt;p&gt;Manufacturer Part #: TL3301EF100QG
