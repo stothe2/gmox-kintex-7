@@ -84,3 +84,4 @@ Some helpful resources are listed below.
 2. Test conditions? Two of the proposed ones are (a) testing setup/hold time as a function of temperature using chain oscillators, and (b) testing stability of performance with temperature using counters. See [this](https://nepp.nasa.gov/respace_mapld11/talks/thu/MAPLD_C/1020%20-%20Sheldon.pdf) presentation to get a better sense.
 3. Load regulation for linear regulators LM1086-2.5V and LM1086-1.8V?
 4. ``FPGA_INIT_B``, ``CCLK``, and ``M[2:0]`` (especially for non-JTAG uses)?
+5. A separate ground pool for ``XADC_GND``?
