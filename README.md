@@ -2,6 +2,10 @@
 
 **Chip** XC7K160T-FBG484.
 
+The project is still in-progress. Switching regulation connections for ``VCCINT``, ``MGTAVCC``, ``VCCAUX``, ``MGTAVTT`` need to be made in the schematic, though the libraries are all in place. Also, the ADC interface needs to be connected.
+
+A note about the libraries: libraries in the **custom** folder are manually created using respective datasheets, while the libraries in the **bxl-to-cad** folder have been created using [Ultra Librarian](http://www.accelerated-designs.com/ultra-librarian/).
+
 ## Power supply considerations
 
 Some helpful resources are listed below.
