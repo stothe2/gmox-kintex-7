@@ -25,6 +25,8 @@ Some helpful resources are listed below.
 
 In our test design, we've connected the HR banks to ``VCCO = 2.5V``, and the HP banks to ``VCCO = 1.8V``. Note, HR stands for High Range and HP for High Performance. Banks 13, 14, 15, 16 are all HR banks. Banks 33, 34 are HP banks.
 
+![XC7K160T banks](https://github.com/stothe2/gmox-kintex-7/blob/master/img/banks.jpg)
+
 ##### Recommended bypass capacitor usage
 
 |                                      | 330uF | 100uF |  47uF | 4.7uF |
